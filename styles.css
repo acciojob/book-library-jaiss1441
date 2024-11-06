@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f8f8f8;
+}
+
+h1{
+	text-align:center;
+}
+h5{
+	color:#777777;
+}
+h3{
+	
+}
+title{
+	color:black;
+}
+
+.book{
+	background-color:#ffffff;
+}
+.book img{
+  display: flex;                /* Set the container as a flexbox */
+  justify-content: center;      /* Horizontally center the image */
+  align-items: center;          /* Vertically center the image */            /* Full viewport height */
+}
+p{
+	background-color:#2ecc71;
+	text-align:center;
+}
