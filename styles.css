@@ -1,7 +1,5 @@
 /*  your css code here. If applicable */
-body{
-	background-color:rgb(46, 204, 113);
-}
+
 
 h1{
 	text-align:center;
@@ -28,4 +26,7 @@ p{
 	background-color:#2ecc71;
 	text-align:center;
 	border-radius:10px;
+}
+.book-library{
+	background-color:rgb(255, 255, 255);
 }
