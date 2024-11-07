@@ -1,34 +1,59 @@
-/*  your css code here. If applicable */
-
-
-h1{
-	text-align:center;
-}
-h5{
-	color:#777777;
-}
-h3{
-	
-}
-title{
-	color:black;
+/* Body styling */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.book{
-	background-color:#ffffff;
-}
-.book img{
-  display: flex;                /* Set the container as a flexbox */
-  justify-content: center;      /* Horizontally center the image */
-  align-items: center;          /* Vertically center the image */            /* Full viewport height */
+/* Library container for the collection of books */
+.book-library {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }
 
-.book-library{
-	background-color:rgb(255, 255, 255);
+/* Book block styling */
+.book {
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
 }
-.price{
-	background-color:rgb(46, 204, 113);
-	text-align:center;
-	border-radius:10px;
-	 color: white;
+
+/* Book image */
+.book-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Title styling */
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Author styling */
+.book-author {
+    color: #777777;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Price block styling */
+.price-block {
+    background-color: #2ecc71;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
 }
