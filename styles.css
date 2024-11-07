@@ -22,11 +22,12 @@ title{
   justify-content: center;      /* Horizontally center the image */
   align-items: center;          /* Vertically center the image */            /* Full viewport height */
 }
-p{
+
+.book-library{
+	background-color:rgb(255, 255, 255);
+}
+.price{
 	background-color:#2ecc71;
 	text-align:center;
 	border-radius:10px;
-}
-.book-library{
-	background-color:rgb(255, 255, 255);
 }
